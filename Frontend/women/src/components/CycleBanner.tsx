@@ -19,7 +19,7 @@ const phaseIcons: Record<CyclePhase, React.ReactNode> = {
             <path d="M8 18Q10 16 12 18Q14 16 16 18" />
         </svg>
     ),
-    ovulatory: (
+    fertility: (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
             <circle cx="12" cy="12" r="5" />
             {[0, 45, 90, 135, 180, 225, 270, 315].map((a) => (
@@ -40,7 +40,7 @@ const phaseIcons: Record<CyclePhase, React.ReactNode> = {
 const phaseColors: Record<CyclePhase, string> = {
     menstrual: '#D8C7FF',
     follicular: '#BEE3F8',
-    ovulatory: '#FFD6B0',
+    fertility: '#FFD6B0',
     luteal: '#F8C8DC',
 };
 
